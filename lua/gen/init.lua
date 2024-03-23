@@ -165,6 +165,7 @@ M.exec = function(options)
                                                            start_pos[3] - 1,
                                                            end_pos[2] - 1,
                                                            end_pos[3], {}), "\n")
+    print(content)
 
     local function substitute_placeholders(input)
         if not input then return end
